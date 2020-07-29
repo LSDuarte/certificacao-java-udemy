@@ -1,0 +1,8 @@
+
+### Switch ###
+
+Argumento do switch >> byte, short, char, int (e seus wrappers), String e Enum
+
+Não aceita os tipos Long e Boolean
+
+Comando Break
