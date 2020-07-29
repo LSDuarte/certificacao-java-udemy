@@ -2,4 +2,29 @@
 >>>> Underscore "_"
 
 	* só pode ser usado em números
-	* deve aparecer semrpe entre números
+	* deve aparecer sempre entre números
+	
+	
+	###	Exercicios 1 ###
+	Marque a alternativa válida
+	
+	double a = 1._200;
+	double a = 1_.200;
+	double a = 1.2_00; (X)  Underscore só podem ser usados em números, e deve sempre aparecer entre numeros 00_11
+	int 1200_l;
+	Nenhuma das anteriores
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	### DEVO REVISAR 
+	
+	public class Main{ public static void main (String args[]){ Aluno a = new Aluno("João"); a.getNome(); a = new Aluno("César"); a = null; } } public class Aluno{ private String nome; public Aluno(String nome) { this.nome = nome; } //métodos set e get }Em que linha o objeto original de a é elegível para o Garbage Collection?
+	Qual das seguintes declarações de variáveis é inválida?
+	Qual opção contém apenas valores primitivos?
