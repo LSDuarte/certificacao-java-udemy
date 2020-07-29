@@ -1,0 +1,65 @@
+######### JVM, JRE e JDK ##########
+
+
+>> JVM (Java Virtual Machine) 
+	* compila o código, é responsável pela independência de sistema operacional do Java e pela segurança do sistema.
+	* resposavel pelo gerenciamento dos aplicativos.
+
+>> JRE (Java Runtime Environment)
+ 	* basta caso o interesse seja apenas rodar programas em Java.
+
+>> JDK (Java Development Kit)
+	* é necessário para desenvolver programas em Java.
+	
+
+
+######### COMANDOS ##########
+
+JAVAC compila um arquivo .java em .class
+
+JAVA executa o código
+
+EX: javac Main.java
+	java Main
+	java Main arg1 arg2
+	
+	
+######### PACKAGES / IMPORTS ##########
+
+>>> package diretorio.diretorio2;
+>>> import diretorio.diretorio2.NomeClasse;
+>>> import diretorio.diretorio2.*; 
+
+	>>> static import <<<
+	* permite que você use métodos estáticos sem precisar usar os nomes das classes. 
+	
+	
+######### HERANÇA MULTIPLA ##########
+
+>> O Java não permite herança multiplas.
+>> O Java permite um mecanismo de herança múltipla por meio das interfaces e seus métodos default.
+
+
+
+########## Revise os materiais do curso para ampliar seu aprendizado. ##########
+
+
+ >>> O que você sabe <<<
+
+Na estrutura do Java quem é responsável pela independência do sistema operacional?
+public class Main{ static int a = 1; public static void main(String[] args) { for(int a = 0;a<5;a++) a++; System.out.println(a--); } }Qual a saída?
+Marque a alternativa verdadeira.
+Qual das alternativas abaixo simula herança múltipla no Java?
+public class Main{ public static int main(String[] args){ System.out.println("Olá"); return 1; } }Qual a saída?
+Uma classe deve ter:
+O que é o encapsulamento?
+public class Main{ public static void main(String[] args){ for(int a = 2;a>-2;a--); System.out.print(a); } }Qual a saída do código?
+Marque a alternativa correta
+
+
+
+ >>> O que você deve revisar <<<
+
+public class Main { public static void main(String[] x) {     int [] x = {4,5,6};         System.out.println(x[4]);     }  }Qual a saída do código?
+A classe Cachorro está no diretório projeto/com/animal/Cachorro.java//Insira código aqui public class Cachorro{ }Que alternativa deve ser posta no Insira código aqui se compilarmos o código a partir do diretório raiz?
+Considere a seguinte classe escrita em um programa:class Elipse{ public int raio1, raio2, soma = 10; public void setRaios(in
