@@ -4,7 +4,7 @@ package udemy.exercicios;
  * @author LSDuarte
  *
  */
-public class Exercicio3 {
+public class B_Exercicio3 {
 
 	static int a = 1;
 

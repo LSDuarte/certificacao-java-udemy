@@ -12,7 +12,7 @@ package udemy.exercicios;
  *		Nenhuma das anteriores
  *	 *
  */
-public class Exercicio7 {
+public class B_Exercicio7 {
 
 /*	public static int main(String[] args) {
 	

@@ -5,6 +5,8 @@ package udemy.exercicios;
 
 /**
  * @author LSDuarte
+ * 
+ * 		java básico
  *
  *		Pergunta 1 - Qual a saida do código abaixo?
  *
@@ -16,7 +18,7 @@ package udemy.exercicios;
  * 		* Exception
  * 
  */
-public class Exercicio1 {
+public class B_Exercicio1 {
 
 	public static void main(String[] x) {
 

@@ -3,6 +3,8 @@ package udemy.exercicios;
 /**
  * @author LSDuarte
  *
+ *		java básico
+ *
  *		Pergunta 11 - Qual a saída do código?
  *
  *		210-1
@@ -11,7 +13,7 @@ package udemy.exercicios;
  *		Erro de compilação (X)
  *
  */
-public class Exercicio11 {
+public class B_Exercicio11 {
 
 	public static void main(String[] args) {
 
