@@ -6,3 +6,11 @@ Argumento do switch >> byte, short, char, int (e seus wrappers), String e Enum
 Não aceita os tipos Long e Boolean
 
 Comando Break
+
+
+
+### REVISAR ###
+
+O que você deve revisar
+public class Main { public static void main(String[] args){ String a = "B"; switch(a){ case "a" : System.out.print( "a " ); case "B" : System.out.print( "B " ); case "b" : System.out.print( "b " ); default : System.out.print( "default " ); } } }Qual a saída do código?
+public class Main{ public static void main(String args[ ] ){ int a = 0; boolean bool = false; bool = false & maiorQueZe
