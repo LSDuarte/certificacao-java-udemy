@@ -41,7 +41,7 @@ public class M_Exercicio5 {
 			    }  
 			}		
 		*/		
-		
+		// erro de compilação, variavel "a" é protected, e a classe B está tentando acessar a variavel em outro pacote, se fosse no mesmo pacote não ocorreria.
 	}
 
 }

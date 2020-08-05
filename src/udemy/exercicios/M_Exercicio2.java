@@ -31,4 +31,6 @@ public class M_Exercicio2 {
 		
 	}
 
+	// metodo man com metodo cachorro private, não é permitido, gerando então, um erro de compilação. 
+	
 }
