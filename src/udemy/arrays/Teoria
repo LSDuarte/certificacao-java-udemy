@@ -3,4 +3,8 @@
 Array 
 	>> Possui tamanho fixo (não é possivel alterá-lo dinamicamente)
 	>> índice começa em 0
-	>> 
+
+	
+##### Revisar #####
+
+public class Main { public static void main(String[][] args) { System.out.println(args[0][1]); } public static void main(String
