@@ -1,0 +1,31 @@
+### Metodos e Encapsulamentos ###
+
+
+* Uso de métodos estáticos não podem chamar diretamente métodos e variavei não estaticos.
+
+* Métodos, construtores e variáveis private só podem ser usados pela classe onde eles são declarados. 
+
+* Uma classe top-level só pode ser public ou default
+
+>>> classe top-level : são classes não internas as que declaramos em um único arquivo
+	
+* Variavel e métodos default podem ser acessados por classes do mesmo pacote.
+* Variaveis protected podem ser acessadas por subclasses.
+
+* Passagem por valor e referência.
+* Em java não existe passagem por referência. 
+
+#### importante para prova ####
+
+* Overload 
+* Métodos e construtores
+(possuem o mesmo nome, apenas mudando a lista de parametros, podendo mudar o nivel de acesso, tipo de retorno do metodo)
+
+
+#### REVISAR ####
+
+class Cachorro{ private Cachorro(String nome){ System.out.print(nome); } Cachorro(){ System.out.print("desconhecido"); } } public class Main{ public static void main(String args[]){ new Cachorro("Pastor Alemão"); } }Qual a saída?
+package um; class A { protected int a; public void zerar() { a = 0; } } //código em outro arquivo package dois; import um.*; public class B extends A { int b = a; public static void main(String[] args) { A a = new A(); a.zerar(); System.out.print(a.a); } }Qual a saída?
+public /*tipo de retorno*/ metodo(int a){ double b = 100.0; return (long) a/b*3; }Qual deve ser o tipo de retorno do método?
+Em uma classe chamada Main que opção poderia ser um construtor?
+public class Main{ public int a; }De que maneira podemos tornar a variável a read-only por qualquer outra classe?
