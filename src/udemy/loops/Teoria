@@ -1,0 +1,13 @@
+### Loops ###
+
+>>> Do While 
+	* bloco do do-while é executado pelo menos uma vez
+	
+	
+### REVISAR ###
+
+O que você deve revisar
+import java.util.ArrayList; import java.util.List; public class Main { public static void main(String [ ] args) { List<String> a = new ArrayList<>(); a.add("1"); a.add("2"); a.add("3"); while(!a.isEmpty()){ System.out.print(a.remove(0) + " "); } } }Qual a saída?
+Qual trecho de código não contém erros?
+Cada passagem por um loop é chamada de
+
