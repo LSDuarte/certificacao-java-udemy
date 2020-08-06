@@ -1,0 +1,27 @@
+#### Exceptions ####
+
+* Útil para tratar situações inesperadas em seu programa.
+* Checked(checadas), unchecked (não checadas)
+
+* multi-catch
+* order dos catches
+* throw e throws 
+
+
+	public static void main(String[] args) throws Exception {
+		throw new Exception
+	}
+
+* throw >> lança uma exceção de Exception ou de algum bloco de código ou metodo, checadas e não checadas.
+* throws >> assinatura do metodo, indicando que pode lançar exception, pode usar mais de uma separada por virgula, pode usar ele para evitar o uso de try/catch
+
+
+####  revisar ####
+
+public void method() _______ Exception {                  _____________ Exception(); }O que deve ser colocado no trecho de código acima respectivamente?
+class A extends Exception{ } class B extends A { } public class Main{ public static void main(String[] args){ try{ throw new B(); } catch(A e){ System.out.print("A "); } catch(Exception e){ System.out.print("Exception "); } finally{ System.out.print("Finally"); } } }Qual a saída?
+public class Main{ public static void main(String[] args){ int a = 1, b = 0; if(a/b) System.out.print("A"); else System.out.print("B"); } }Qual a saída?
+class A extends Throwable{} class B extends A{} public class Main{ public static void main(String[] args){ try{ throw new B(); } catch(A a){ System.out.println("A"); } catch(B b){ System.out.println("B"); } finally{ System.out.println(" Finally"); } } }Qual a saída?
+public class Main{ public static void main(String args[]) throws Exception{ try{ metodo(); System.out.print("1"); } finally{ System.out.print("2"); } System.out.print("3"); } public static void metodo() throws Exception { throw new Exception(); } }Qual a saída?
+public class Main{ public static void main(String args[]) throws Exception{ try{ metodo(); System.out.print("1"); } catch(Exception e){ } finally{ System.out.print("2"); } System.out.print("3"); } public static void metodo() throws Exception { throw new Exception(); } }Qual a saída?
+Para que serve as exceptions no Java? Selecione a melhor alternativa.
