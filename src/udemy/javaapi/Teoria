@@ -1,0 +1,15 @@
+### JAVA API ###
+
+* conceito de interfaces funcionais
+
+	>> Possuem um único método abstract (podendo ter outros tipos como o default)
+	>> Recomenda-se uso da anotação @FunctionalInterface (Não é obrigatório)
+	
+	
+### REVISAR ####
+	
+import java.util.*; public class Whizlab{ public static void main(String[] args){ List a = new ArrayList<>(); a.add(1); Integer i = a.get(0); System.out.println(i); } }Qual a saída?
+public class Main{ public static void main(String[] args) { String a = "Curso"; a.concat("Java"); a.toLowerCase(); } }Quantos objetos String foram criados no trecho de código acima?
+Qual das alternativas pode ser considerada uma interface funcional?
+Que classe você deve usar para representar uma Data sem a hora ou informação de zona?
+No Java uma String é imutável. O que isso significa?
