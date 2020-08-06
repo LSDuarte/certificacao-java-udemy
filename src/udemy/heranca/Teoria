@@ -3,3 +3,13 @@
 * Sobrescrita (overriding) de métodos e polimorfismo.
 * Interface e métodos default
 
+### REVISAR TUDO ###
+
+class Cachorro extends Animal implements Mamifero{} interface Mamifero{} class Animal{} public class Main{ static Animal a = new Cachorro(); public static void main(String []args){ System.out.print(a instanceof Mamifero); } }Qual a saída?
+Que opção é um método default válido?
+class A { protected void print() { System.out.print("A"); } } class B extends A { //sobrescrita de método aqui } Que método abaixo sobrescreve corretamente o método print()?
+Qual das opções apresenta uma classe abstrata codificada corretamente?
+public interface Main{ public int a = 0; int b = 0; static int c = 0; final int d = 0; public static int e = 0; public final int f = 0; static final int g = 0; public static final int h = 0; }O que podemos dizer sobre o código acima?
+class A{ final int a = 1; } public class B extends A{ int a = 2; public static void main(String[] args){ B b = new B(); b.a = 3; System.out.print(b.a + " "); System.out.print(((A)b).a); } }Qual a saída?
+class A{ public int getNumero(){ return 1;} } class B extends A{ public long getNumero(){ return 2;} } public class Main{ public static void main(String[] args){ B b = new B(); A ab = new B(); System.out.print(b.getNumero() + " " + ab.getNumero()); } }Qual a saída?
+class A{ public int a = 1; } class B extends A{ public int a = 2; } public class Main{ public static void main(String[] args){ B b = ne

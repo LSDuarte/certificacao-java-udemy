@@ -16,4 +16,7 @@ public class A {
 		return "nome";
 	}
 
+	protected void print() {
+		System.out.println("A");
+	}
 }

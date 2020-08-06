@@ -15,5 +15,5 @@ public class B extends A {
 	public int getNumero() {
 		return 2;
 	}
-
+	
 }
