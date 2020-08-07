@@ -9,7 +9,7 @@ package udemy.simulados;
  *	Que opção pode acessar o elemento  4?
  *
  */
-public class Simulado1 {
+public class Q1_Simulado1 {
 
 	public static void main(String[] args) {
 		char[] a = {'1', '2', '3', '4','5'};
